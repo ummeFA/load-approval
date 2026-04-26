@@ -67,5 +67,5 @@ The application is built using **Gradio** and allows users to:
 
 The application is deployed using Hugging Face Spaces.
 
- **Live App:**  
-[Click here to open the app]https://umme033-loan-approval-project.hf.space/?__theme=system&deep_link=uyx7Plwku_8
+ **Live Demo:**  
+[Loan Approval Prediction App]https://umme033-loan-approval-project.hf.space/?__theme=system&deep_link=uyx7Plwku_8

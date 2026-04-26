@@ -60,6 +60,7 @@ The application is built using **Gradio** and allows users to:
 
 - Enter applicant details  
 - Get instant prediction (Approved / Rejected)  
-
+![Gradio UI](loan-image1.png)
+![Gradio UI](loan-image2.png)
 ---
 

@@ -63,3 +63,9 @@ The application is built using **Gradio** and allows users to:
 ![Gradio UI](loan-image1.png)
 ---
 
+##  Deployment
+
+The application is deployed using Hugging Face Spaces.
+
+ **Live App:**  
+[Click here to open the app]https://umme033-loan-approval-project.hf.space/?__theme=system&deep_link=uyx7Plwku_8

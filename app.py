@@ -7,10 +7,9 @@ def predic_loan(Gender, Married, Dependents, Education, Self_Employed, Applicant
                 return("Please insert applicant income or loan amount")
 
         if (ApplicantIncome is None or
-           CoapplicantIncome is None or
             LoanAmount is None
            ):
-                   return ("Please insert value!")
+                return ("Please insert value!")
                 
         input_data=pd.DataFrame({"Gender":[Gender], 
                                   "Married":[Married], 

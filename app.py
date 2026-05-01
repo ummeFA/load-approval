@@ -11,7 +11,7 @@ def predic_loan(Gender, Married, Dependents, Education, Self_Employed, Applicant
                 return ("Please insert value!")
 
         if (ApplicantIncome<= 0 or LoanAmount<=0 or Loan_Amount_Term<=0):
-                return("Please insert applicant income or loan amount")
+                return("Please insert applicant income and/or loan amount and/or loan amount term.")
                 
         input_data=pd.DataFrame({"Gender":[Gender], 
                                   "Married":[Married], 

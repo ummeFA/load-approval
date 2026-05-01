@@ -4,7 +4,13 @@ import joblib
 def predic_loan(Gender, Married, Dependents, Education, Self_Employed, ApplicantIncome, CoapplicantIncome, LoanAmount, Loan_Amount_Term, Credit_History, Property_Area):
         # If the user does not input income or loan amount
         if (ApplicantIncome<= 0 or LoanAmount<=0):
-                alert("Please insert applicant income or loan amount")
+                return("Please insert applicant income or loan amount")
+
+        if (ApplicantIncome is None or
+           CoapplicantIncome is None or
+            LoanAmount is None
+           ):
+                   return ("Please insert value!")
                 
         input_data=pd.DataFrame({"Gender":[Gender], 
                                   "Married":[Married], 
